@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 320px;
+  height: 100%;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 42px;
+  background: #a91918;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+}
+
+content {
+  width: 100%;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+content .imgWrap {
+  width: 100%;
+  height: 182px;
+  background: #ade;
+}
+
+content .desc {
+  width: 100%;
+  background: #f3eff0;
+  padding: 8px 0 0 12px;
+  flex: 1;
+}
+
+content .desc .control {
+  width: 50px;
+  height: 19px;
+  background: #aaa;
+  margin-left: -8px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+content .desc p {
+  line-height: 26px;
+}
+
+content .look {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+}
+
+content .look a {
+  color: #aaa;
+  text-decoration: none;
+  line-height: 50px;
+  padding-left: 45px;
+}
+
+content .addBtn {
+  width: 100%;
+  height: 50px;
+  background: #a3a3a3;
+  text-align: center;
+  line-height: 50px;
+}
+
+content .addBtn button {
+  width: 218px;
+  height: 39px;
+  background: #b62021;
+  border-radius: 15px;
+  color: #fff;
+}
