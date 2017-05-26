@@ -1,0 +1,35 @@
+header {
+  position: relative;
+}
+
+header a {
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  display: block;
+  height: 22px;
+  width: 24px;
+}
+
+header a img {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 22px;
+  width: 22px;
+}
+
+/*loading*/
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100vh;
+}

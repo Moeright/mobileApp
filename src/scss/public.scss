@@ -1,0 +1,41 @@
+header {
+    position: relative;
+    a {
+        position: absolute;
+        top: 11px;
+        left: 13px;
+        display: block;
+        height: 22px;
+        width: 24px;
+        // background: url('../images/left-arrow_03.jpg') no-repeat 0px 0px;
+        img {
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 22px;
+            width: 22px;
+        }
+    }
+}
+
+
+/*loading*/
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100vh;
+    // img {
+    //     height: 20px;
+    //     width: 20px;
+    //     display: block;
+    // }
+}

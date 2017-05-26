@@ -9,7 +9,9 @@ require.config({
 		"layer": "plug/layer/layer",
 		"detail":"detail",
 		"detai2":"detai2",
-		"cart":"cart"
+		"cart":"cart",
+		"swiper": "lib/swiper.min",
+		"zepto": "lib/zepto.min"
 	},
 	shim: {
 		"layer": ['jquery'],
@@ -19,6 +21,8 @@ require.config({
 		},
 		"detail":['jquery'],
 		"detai2":['jquery'],
-		"cart":['jquery']
+		"cart":['jquery'],
+		"swiper":['jquery'],
+		"zepto":['jquery']
 	}
 });
