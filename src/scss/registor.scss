@@ -1,0 +1,44 @@
+.registor-content {
+    background: #f3eff0;
+    height: 100%;
+    padding: 0 15px;
+    >div {
+        border-radius: 3px;
+        margin-top: 16px;
+        display: flex;
+        // display: block;
+        height: 43px;
+        background: #fff;
+        >label {
+            height: 43px;
+            line-height: 43px;
+            width: 70px;
+            // display: block;
+            font-size: 14px;
+            font-size: #505050;
+            margin-left: 10px;
+        }
+        >input {
+            border-radius: 3px;
+            border: 0;
+            flex: 1;
+            // display: block;
+            font-size: 14px;
+            font-size: #9a9a9a;
+            text-indent: 5px;
+            height: 43px;
+            line-height: 43px;
+        }
+    }
+    .true-login {
+        height: 43px;
+        border-radius: 8px;
+        margin-top: 90px;
+        img {
+            display: block;
+            border-radius: 8px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

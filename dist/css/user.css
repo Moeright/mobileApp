@@ -1,0 +1,77 @@
+.user-content {
+  margin: 0 19px;
+  padding-top: 30px;
+}
+
+.user-content .user-top {
+  height: .82rem;
+  display: flex;
+}
+
+.user-content .user-top > .img {
+  background: #fff;
+  display: block;
+  height: .82rem;
+  width: .82rem;
+  border-radius: 8px;
+}
+
+.user-content .user-top > .img img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.user-content .user-top > .name {
+  margin-left: .18rem;
+  font-size: 18px;
+}
+
+.user-content .user-top > .name > p:nth-child(1) {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #222423;
+}
+
+.user-content .user-top > .name > p:nth-child(2) {
+  margin-top: .1rem;
+}
+
+.user-content .user-top > .name > p:nth-child(2) span {
+  font-size: 18px;
+  color: #f20201;
+}
+
+.user-content .user-bottom {
+  margin-top: .42rem;
+  width: 100%;
+  height: 1.8rem;
+  border: 1px solid #dedede;
+  border-bottom: 0px solid #dedede;
+  border-radius: 8px;
+}
+
+.user-content .user-bottom > li {
+  height: .44rem;
+  line-height: .44rem;
+  border-bottom: 1px solid #dedede;
+}
+
+.user-content .user-bottom > li > a {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: .44rem;
+  font-size: 17px;
+  color: #010101;
+}
+
+.user-content .user-bottom > li > a span:nth-child(1) {
+  float: left;
+  margin-left: .13rem;
+}
+
+.user-content .user-bottom > li > a span:nth-child(2) {
+  float: right;
+  margin-right: .12rem;
+}

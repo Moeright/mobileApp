@@ -10,31 +10,59 @@
             user-scalable=no">
     <title>detail1</title>
     <link rel="stylesheet" href="css/detail2.css" >
+    <link rel="stylesheet" href="js/plug/swiper.min.css" >
+    <script src="js/lib/swiper.min.js"></script>
+    <style type="text/css">
+    * { margin: 0; padding: 0;}
+      .swiper-container { height: 250px; width: 180vw; margin-left: -40vw }
+      .swiper-container  img  { width: 100%; height: 200px;}
+
+      .content { width: 100%; overflow: hidden;height: 250px;}
+      .content .imgWrap{width: 100%;height: 250px;}
+      .swiper-wrapper{height: 182px;}
+    .pagination-wrap { padding: 20px 0 0 0;font-size: 0;text-align: center}
+    .my-pagination { display: inline-block; padding: 8px; border-radius: 10px; background-color: #999;}
+    .swiper-pagination-bullet { background-color: #fff; margin: 0 10px;}
+    .desc p:nth-child(2){color: #E63F00 ; }
+    </style>
   </head>
   <body>
     <div class="container">
-      <header>商品资料</header>
+      <header><p>商品资料</p></header>
       <content>
+        <!--轮播 -->
         <div class="imgWrap">
-        </div>
-        <div class="desc">
-          <div class="control">
+
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+            </div>
+            <!--圆圈  -->
+            <div class="pagination-wrap">
+              <div class="my-pagination">
+
+              </div>
+            </div>
+
           </div>
+        </div>
+        <!--des  -->
+        <div class="desc">
           <p>美特斯邦威</p>
-          <p>￥85.00</p>
+          <p style="color:orange">￥85.00</p>
           <p>购买人数：209</p>
         </div>
         <div class="look">
-          <a href="#">查看商品详情</a>
+          <a href="javascript:;" class="dxiang">查看商品详情</a>
         </div>
         <div class="addBtn">
-          <button type="submit" >添加到购物车</button>
-
+          <button type="submit" class="tgou" >添加到购物车</button>
         </div>
       </content>
 
 
     </div>
+  <script src="js/lib/zepto.min.js"></script>
   <script data-main="js/detail2" src="require.js" defer async="true"></script>
   </body>
 </html>

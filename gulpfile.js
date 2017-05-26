@@ -12,7 +12,7 @@ gulp.task('copyjs',function () {
 });
 
 gulp.task('copyPng',function () {
-  gulp.src('src/imgs/*.{jpg,png,gif}').pipe(gulp.dest('dist/imgs'));
+  gulp.src('src/images/*.{jpg,png,gif}').pipe(gulp.dest('dist/images'));
 });
 
 gulp.task('copyData',function () {
@@ -27,9 +27,9 @@ gulp.task('copyIcon',function () {
 
 var imgMin = require('gulp-imagemin');
 gulp.task('imgMin',function () {
-  gulp.src('src/imgs/*')
+  gulp.src('src/images/*')
   .pipe(imgMin())
-  .pipe(gulp.dest('dist/imgs'));
+  .pipe(gulp.dest('dist/images'));
 });
 
 var jsMin = require('gulp-uglify');

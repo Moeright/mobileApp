@@ -1,0 +1,109 @@
+.sigin-content {
+    display: block;
+    // width: 100%;
+    height: 100%;
+    background: #f3eff0;
+    padding-left: 15px;
+    padding-right: 15px;
+    ;
+    >input {
+        display: block;
+        // margin: 0 .15rem 0 .15rem;
+        // margin-left: .15rem;
+        // margin-right: .15rem;
+        color: #9b9b9b;
+        font-size: 13px;
+        // padding-left: .10rem;
+        border-radius: 3px;
+        text-indent: 10px;
+        border: 0;
+        height: 43px;
+        width: 100%;
+    }
+    >input:nth-child(1) {
+        margin-top: .15rem;
+        background: #FFF;
+    }
+    >input:nth-child(2) {
+        margin-top: 2px;
+        background: #FFF;
+    }
+    .sigin-password {
+        height: 22px;
+        margin-top: 25px;
+        overflow: hidden;
+        >input {
+            display: block;
+            float: left;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        >span:nth-child(2) {
+            display: block;
+            float: left;
+            margin-left: 5px;
+            font-size: 15px;
+            color: #5b5b5b;
+        }
+        >span:nth-child(3) {
+            display: block;
+            float: left;
+            margin-left: 17px;
+            font-size: 15px;
+            color: #ff0f53;
+        }
+    }
+    .sigin-auto {
+        height: 22px;
+        margin-top: 25px;
+        overflow: hidden;
+        >input {
+            display: block;
+            float: left;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        >span:nth-child(2) {
+            display: block;
+            float: left;
+            margin-left: 5px;
+            font-size: 15px;
+            color: #5b5b5b;
+        }
+    }
+    .sigin-sigin {
+        font-size: 17px;
+        color: #fff;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .sigin-registor {
+        font-size: 17px;
+        color: #fff;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .sigin-sigin {
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 25px;
+        >img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .sigin-registor {
+        margin-top: 5px;
+        width: 100%;
+        border-radius: 5px;
+        >a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
